@@ -1,4 +1,5 @@
 # N-Queens
+The NQueens problem: let a user define an integer n. Then, place n queens on an n-by-n board such that no queen sits in a position that directly attacks another queen.
 
 ## User Inputs
 Users should input an integer that is higher than 3. The number inputted will be the size of the chessboard, and the number of queens on the chessboard. 
