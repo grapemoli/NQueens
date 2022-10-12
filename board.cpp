@@ -186,9 +186,9 @@ bool Board::collides(int xPos, int yPos) {
 
 int Board::getFreePosition(int yPos) {
     // find a free x position, and return it 
-	bool collides = false;
-	bool keepGoing = true;
-	int xPos = 0;
+    bool collides = false;
+    bool keepGoing = true;
+    int xPos = 0;
 
     // note that 0, 0 is free if there is no queens on the board
     if(Board::queens.getSize() == 0) {
